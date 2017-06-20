@@ -43,7 +43,7 @@
                 android:id="@+id/textView1"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="@string/nuevo"
+                android:text="nuevo"
                 android:textAlignment="center"/>
 
             <Button
@@ -57,7 +57,7 @@
                 android:id="@+id/textView2"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="@string/sincronozar"
+                android:text="sincronozar"
                 android:textAlignment="center"/>
         </LinearLayout>
         <LinearLayout
@@ -75,7 +75,7 @@
                 android:id="@+id/textView3"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="@string/listar"
+                android:text="listar"
                 android:textAlignment="center"/>
             <Button
                 android:id="@+id/bt4"
@@ -87,7 +87,7 @@
                 android:id="@+id/textView4"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="@string/camara"
+                android:text="camara"
                 android:textAlignment="center"/>
         </LinearLayout>
     </LinearLayout>

@@ -1,15 +1,11 @@
 <resources>
-    <string name="app_name">Utpl</string>
-
+    <string name="app_name">Recolector de Datos</string>
     <string name="text_1">Datos del Lugar</string>
     <string name="hint1">Ingrese su Nombre</string>
     <string name="hint2">Ingrese su Correo</string>
     <string name="hint3">Ingrese su Cedula</string>
     <string name="hint4">Ingrese su Celular</string>
     <string name="btn1">Save Data</string>
-    <string name="title_activity_listar">listar</string>
-    <string name="title_activity_nuevo">nuevo</string>
-    <string name="title_activity_sincronizar">sincronizar</string>
 
 
 </resources>
