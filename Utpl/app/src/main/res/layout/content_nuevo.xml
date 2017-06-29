@@ -7,5 +7,189 @@
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
     tools:context="com.example.patricio.utpl.nuevo"
     tools:showIn="@layout/activity_nuevo">
+    <LinearLayout
+            android:layout_width="368dp"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            tools:layout_editor_absoluteX="8dp"
+            tools:layout_editor_absoluteY="2dp">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/textView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Registrar Usuario"
+                    android:textAlignment="center"/>
+
+                <EditText
+                    android:id="@+id/txtcolor"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:hint="Nombre"
+                    android:inputType="text" />
+
+                <EditText
+                    android:id="@+id/txtturbiedad"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:hint="Apellido"
+                    android:inputType="text" />
+
+                <EditText
+                    android:id="@+id/txtph"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:hint="Cedula"
+                    android:inputType="number" />
+
+                <EditText
+                    android:id="@+id/txttemperatura"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:hint="Fecha Nacimiento"
+                    android:inputType="date" />
+
+                <EditText
+                    android:id="@+id/txtconductividad"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:hint="Sexo"
+                    android:inputType="text" />
+
+
+                <Button
+                    android:id="@+id/bt5"
+                    android:textColor="#fff"
+                    android:layout_marginTop="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:background="@color/colorAccent"
+                    android:text="Registrar"/>
+            </LinearLayout>
+    </LinearLayout>
+<!--
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/textView3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Parametros Quimicos"
+                    android:textAlignment="center" />
+
+                <EditText
+                    android:id="@+id/txtstd"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:hint="STD"
+                    android:inputType="number|numberDecimal" />
+
+                <EditText
+                    android:id="@+id/txtaluminio"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:hint="Aluminio"
+                    android:inputType="number|numberDecimal" />
+
+                <EditText
+                    android:id="@+id/txtcobre"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:hint="Cobre"
+                    android:inputType="number|numberDecimal" />
+
+                <EditText
+                    android:id="@+id/txtcloro"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:hint="Cloro libre residual"
+                    android:inputType="number|numberDecimal" />
+
+                <EditText
+                    android:id="@+id/txtfosfatos"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:hint="Fosfatos"
+                    android:inputType="number|numberDecimal" />
+
+                <EditText
+                    android:id="@+id/txthierro"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:hint="Hierro Total"
+                    android:inputType="number|numberDecimal" />
+
+                <EditText
+                    android:id="@+id/txtmanganeso"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:hint="Manganeso"
+                    android:inputType="number|numberDecimal" />
+
+                <EditText
+                    android:id="@+id/txtnitratos"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:hint="Nitratos"
+                    android:inputType="number|numberDecimal" />
+
+                <EditText
+                    android:id="@+id/txtnitritos"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:hint="Nitritos"
+                    android:inputType="number|numberDecimal" />
+
+                <EditText
+                    android:id="@+id/txtnitrogeno"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:hint="NitrГіgeno Amoniacal "
+                    android:inputType="number|numberDecimal" />
+                    -->
+
+                <!--<Button
+                    android:id="@+id/bt4"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_marginTop="20dp"
+                    android:background="@mipmap/ic_camara" />
+
+                <TextView
+                    android:id="@+id/textView4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/camara"
+                    android:textAlignment="center" />
+            </LinearLayout>
+ -->
 
 </android.support.constraint.ConstraintLayout>
